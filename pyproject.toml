@@ -1,0 +1,21 @@
+[project]
+name = "CycleGame"
+version = "0.0.1"
+description = "Tool for checking if all modules, classes, and functions have docstrings"
+authors = ["BYUI Student Project"]
+license = "MIT"
+readme = "README.md"
+python = "3.8+"
+repository = "https://github.com/Eugenespace/cse210-08.git"
+documentation = "https://github.com/Eugenespace/cse210-08"
+keywords = ["byui", "byu-idaho", "cse210", "documentation"]
+classifiers = ["Topic::Software Development"]
+
+[dependencies]
+raylib<=4.0.0.5
+
+[dev-dependencies]
+raylib<=4.0.0.5
+
+[build-system]
+requires = ["setuptools", "wheel"]
