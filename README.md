@@ -58,7 +58,8 @@ root
 * Raylib Python CFFI 3.7
 
 
-## *Authors & Contributions*
+## Authors & Contributions
+---
 *Arnold Sujan Katru (kat21015@byui.edu)- Scoring
 *Sandra Asamoah Adeleye (ade21006@byui.edu)- Collision Detection
 *Marcus Blanc (bla21011@byui.edu)- Game Over Messages
