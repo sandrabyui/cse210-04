@@ -16,6 +16,12 @@ from game.shared.point import Point
 
 
 def main():
+    """
+    Responsiple for starting the game and putting eveything together in the inital part.
+    
+    Args:
+        None
+    """
     
     # Creates two cycles, gets their position and color
     cycle_one = Cycle(
