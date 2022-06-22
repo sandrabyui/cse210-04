@@ -13,9 +13,10 @@ Make sure you have Python 3.8.0 or newer and Raylib Python CFFI 3.7 installed an
 ```
 python3 -m pip install raylib
 ```
-After you've installed the required libraries, open a terminal and browse to the project's root folder. Start the program by running the following command.```
+After you've installed the required libraries, open a terminal and browse to the project's root folder. Start the program by running the following command.
+```
 python Cycle
-
+```
 # Requirements
 The program must also meet the following requirements.
 
@@ -25,8 +26,6 @@ The program must have at least 16 classes.
 The program must remain true to game play described in the overview.
 To run the project
 Go to the __main__.py file and execute the following command: python3 __main_.py
-
-
 
 ## Project Structure
 ---
@@ -55,17 +54,15 @@ root
   +--__main__.py            
 ```
 ## Required Software
---
 * Python 3.8.0 
 * Raylib Python CFFI 3.7
---
 
 
 ## *Authors & Contributions*
-Arnold Sujan Katru (kat21015@byui.edu)- Scoring
-Sandra Asamoah Adeleye (ade21006@byui.edu)- Collision Detection
-Marcus Blanc (bla21011@byui.edu)- Game Over Messages
-Karrass Phiri (phi21020@byui.edu)-Duplicate Player And Wall
+*Arnold Sujan Katru (kat21015@byui.edu)- Scoring
+*Sandra Asamoah Adeleye (ade21006@byui.edu)- Collision Detection
+*Marcus Blanc (bla21011@byui.edu)- Game Over Messages
+*Karrass Phiri (phi21020@byui.edu)-Duplicate Player And Wall
 
 
 
