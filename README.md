@@ -61,12 +61,11 @@ root
 --
 
 
-# Authors & Contributions
----
-Arnold Sujan Katru (kat21015@byui.edu)- Scoring and food
-Sandra Asamoah Adeleye (ade21006@byui.edu)- Collide and White Screen
-Marcus Blanc (bla21011@byui.edu)- Game over messages
-Karrass Phiri (phi21020@byui.edu)-Duplicate player and trail
+## *Authors & Contributions*
+Arnold Sujan Katru (kat21015@byui.edu)- Scoring
+Sandra Asamoah Adeleye (ade21006@byui.edu)- Collision Detection
+Marcus Blanc (bla21011@byui.edu)- Game Over Messages
+Karrass Phiri (phi21020@byui.edu)-Duplicate Player And Wall
 
 
 
