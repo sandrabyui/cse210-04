@@ -53,13 +53,6 @@ root (project root folder)
 
 +-- README.md (general info)
 
-+-- LICENSE.md (license info)
-
-+-- pyproject.toml (project info)
-
-+-- requirements.txt (raylib and python version requirements)
-
-+-- setup.py (Setup file for pip install -e support)
 
 ```
 
