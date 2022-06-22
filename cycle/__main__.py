@@ -19,7 +19,7 @@ def main():
     cast = Cast()
     
 
-    # Cast Parameters -----------------------------------------------------------------------------
+    # Cast Parameters --------------------
     # Actor cycle 1 
     position = Point(int(gameconstants.COLS / 3), int(gameconstants.ROWS / 2)) 
     position = position.scale(gameconstants.CELL_SIZE)
