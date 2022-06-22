@@ -46,11 +46,11 @@ def main():
     cast.add_actor("score1", score1)
     cast.add_actor("score2", score2)
     
-    # create the cast
-    cast = Cast()
-    cast.add_actor("foods", Food())
-    cast.add_actor("snakes", Snake())
-    cast.add_actor("scores", Score())
+    # # create the cast
+    # cast = Cast()
+    # cast.add_actor("foods", Food())
+    # cast.add_actor("snakes", Snake())
+    # cast.add_actor("scores", Score())
    
     # start the game
     keyboard_service = KeyboardService()
