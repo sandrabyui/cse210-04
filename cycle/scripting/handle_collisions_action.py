@@ -3,7 +3,6 @@ from game.scripting.action import Action
 from game.shared.point import Point
 from game.casting.game_over_message import GameOver
 
-
 class HandleCollisionsAction(Action):
     """
     An update action that handles interactions between the actors.
@@ -59,10 +58,10 @@ class HandleCollisionsAction(Action):
 
         cycle_one_head = cycle_one.get_cycle()
         cycle_two_head = cycle_two.get_cycle()
-
+        
         segments_one = cycle_one.get_segments()[1:]
         segments_two = cycle_two.get_segments()[1:]
-
+        
         # Finds which user wins and displays their name
 
         # If cycle_two hits cycle_one's wall then displays cycle_one wins
@@ -72,7 +71,7 @@ class HandleCollisionsAction(Action):
                 if score2.get_points() < 1:
                     self._game_over_message = f"{cycle_one.get_name()} wins!"
                     self._is_game_over = True
-
+            
             # If cycle_one hits its own wall then displays cycle_two wins
             if cycle_one_head.get_position().equals(segment_one.get_position()):
                 score1.reduce_points()
@@ -123,11 +122,11 @@ class HandleCollisionsAction(Action):
         if self._is_game_over:
             cycle_one = cast.get_first_actor("cycle_one")
             cycle_two = cast.get_first_actor("cycle_two")
-
+            
             # Gets segments for cycle one and two
             segments_one = cycle_one.get_segments()
             segments_two = cycle_two.get_segments()
-
+            
             # Creates gameover message
             game_over = GameOver()
             # Gets position for gameover message
