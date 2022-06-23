@@ -1,7 +1,10 @@
+# Import Constants
+# Import Actor
 import constants
 from game.casting.actor import Actor
 
 
+# Call gameover in a new class
 class GameOver(Actor):
     """
     Displays a Game Over Message
@@ -15,6 +18,7 @@ class GameOver(Actor):
         super().__init__()
         self._color = constants.GREEN
 
+    # Define get color to add text color for the actor    
     def get_color(self):
         """Gets the actor's color as a tuple of three ints (r, g, b).
 
